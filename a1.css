@@ -1,0 +1,11 @@
+body {
+    margin: 0; /* Remove default body margin */
+    overflow: hidden; /* Prevent scrollbars if content overflows */
+}
+
+iframe {
+    display: block; /* Treat iframe as a block-level element */
+    width: 100vw; /* Set width to 100% of the viewport width */
+    height: 100vh; /* Set height to 100% of the viewport height */
+    border: none; /* Remove default iframe border */
+}
